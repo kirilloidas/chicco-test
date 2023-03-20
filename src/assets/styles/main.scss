@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    position: relative;
+}
+
+#app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1, h2, h3, h4, p, span, a {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    color: #07484A;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    transition: transform .3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+nav, ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+:root {
+    --gsc-custom-indicator-bar-color: #70908B;
+    --gsc-custom-indicator-track-color: #07484A;
+}
